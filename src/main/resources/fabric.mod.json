@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "minerbackpack",
+	"version": "${version}",
+	"name": "MinerBackpack",
+	"description": "矿工背包让你不再拥有满背包的烦恼！",
+	"authors": [
+		"JasonShane",
+		"mcStarDream"
+	],
+	"contact": {
+		"homepage": "https://github.com/mcStarDream",
+		"sources": "https://github.com/mcStarDream/MinerBackpack"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/minerbackpack/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.miner.backpack.MinerBackpack"
+		],
+		"client": [
+			"com.miner.backpack.MinerBackpackClient"
+		],
+		"fabric-datagen": [
+			"com.miner.backpack.MinerBackpackDataGenerator"
+		]
+	},
+	"mixins": [
+		"minerbackpack.mixins.json",
+		{
+			"config": "minerbackpack.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
