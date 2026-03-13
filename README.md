@@ -1,6 +1,3 @@
-
-&lt;div align="center"&gt;
-
 # 🎒 MinerBackpack
 
 [![Minecraft Version](https://img.shields.io/badge/Minecraft-1.20.1-62B47A?style=flat-square&amp;logo=minetest)](https://www.minecraft.net/)
@@ -10,8 +7,6 @@
 [![Build Status](https://img.shields.io/github/actions/workflow/status/mcStarDream/MinerBackpack/build.yml?branch=main&amp;style=flat-square&amp;logo=github)](https://github.com/mcStarDream/MinerBackpack/actions)
 
 矿工背包让你不再拥有满背包的烦恼！
-
-</div&gt;
 
 ---
 
@@ -102,6 +97,5 @@ cd MinerBackpack
 
 ## 📞 联系方式
 
-- 🏠 主页：https://github.com/mcStarDream
-- 💻 源代码：https://github.com/mcStarDream/MinerBackpack
-
+- 🏠 主页：<https://github.com/mcStarDream>
+- 💻 源代码：<https://github.com/mcStarDream/MinerBackpack>
