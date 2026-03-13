@@ -2,7 +2,9 @@
 	"required": true,
 	"package": "com.miner.backpack.mixin.client",
 	"compatibilityLevel": "JAVA_17",
-	"client": [],
+	"client": [
+		"DrawContextMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	}
