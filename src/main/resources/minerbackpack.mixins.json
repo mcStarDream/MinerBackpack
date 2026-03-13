@@ -3,7 +3,9 @@
 	"package": "com.miner.backpack.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"SlotMixin",
+		"ItemStackMixin",
+		"PlayerInventoryMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
